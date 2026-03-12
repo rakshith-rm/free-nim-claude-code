@@ -39,19 +39,16 @@ This project is a local proxy server that sits between Claude Code and NVIDIA NI
 Create a `.env` file in this directory:
 
 ```env
-NVIDIA_NIM_API_KEY=nvapi-YOUR_KEY_HERE
-NIM_MODEL=meta/llama-3.1-405b-instruct
-```
-Example .env:
 # NVIDIA NIM API Key (get one at https://build.nvidia.com/settings/api-keys)
-NVIDIA_NIM_API_KEY="YOUR_KEY"
+NVIDIA_NIM_API_KEY="nvapi-YOUR_KEY_HERE"
 
 # Model to use (any model available on NIM)
-NIM_MODEL=meta/llama-3.3-70b-instruct
+NIM_MODEL=meta/llama-3.1-405b-instruct
 
-# Server
+# Server (optional)
 HOST=0.0.0.0
 PORT=8082
+```
 
 ### Popular available models
 
